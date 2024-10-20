@@ -46,6 +46,17 @@ def ask_question():
     answer = int(input("\n: ").strip()) - 1 # Substract the answer to get the right index
 
 
+def check_answer(user_answer):
+    """
+    Check the user answer if it is correct.
+    """
+    quest = QUIZ_QUESTIONS[question_number]
+
+    if user_answer == quest["correct"]:
+        global score
+        score += 1
+
+
 def main():
     """
     Run all program functions.
