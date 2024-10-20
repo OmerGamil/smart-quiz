@@ -62,11 +62,13 @@ def main():
     Run all program functions.
     """
     welcome()
+
     for i in range(len(QUIZ_QUESTIONS)):
         ask_question()
         check_answer(answer)
         global question_number
         question_number += 1
-        
+    
+    print("\nYou got " + str(score) + " out of " + str(len(QUIZ_QUESTIONS)))
 
 main()
