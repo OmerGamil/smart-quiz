@@ -13,6 +13,7 @@ QUIZ_QUESTIONS = [
 
 username = ""
 question_number = 0
+quest = QUIZ_QUESTIONS[question_number]
 score = 0
 
 def welcome():
@@ -36,7 +37,6 @@ def ask_question():
     """
     Get the questions according to their order.
     """
-    quest = QUIZ_QUESTIONS[question_number]
     print("\nQuestion number " + str(question_number + 1) + ": " + quest["question"])
 
     for i, choice in enumerate(quest["choices"], 1):
@@ -50,8 +50,6 @@ def check_answer(user_answer):
     """
     Check the user answer if it is correct.
     """
-    quest = QUIZ_QUESTIONS[question_number]
-
     if user_answer == quest["correct"]:
         global score
         score += 1
