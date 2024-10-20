@@ -37,7 +37,7 @@ def ask_question():
     Get the questions according to their order.
     """
     quest = QUIZ_QUESTIONS[question_number]
-    print("\n" + quest["question"])
+    print("\nQuestion number " + str(question_number + 1) + ": " + quest["question"])
 
     for i, choice in enumerate(quest["choices"], 1):
         print(f"{i}. {choice}")  # Print the choices with numbering
