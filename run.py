@@ -28,14 +28,14 @@ def welcome():
             print("No, you must enter something!")
 
     print("\nHello, " + username)
+    print("Get ready for the QUIZ...")
+
 
 
 def ask_question():
     """
     Get the questions according to their order.
     """
-    print("Get ready for the QUIZ...")
-
     quest = QUIZ_QUESTIONS[question_number]
     print("\n" + quest["question"])
 
@@ -62,7 +62,11 @@ def main():
     Run all program functions.
     """
     welcome()
-    ask_question()
-    check_answer(answer)
+    for i in range(len(QUIZ_QUESTIONS)):
+        ask_question()
+        check_answer(answer)
+        global question_number
+        question_number += 1
+        
 
 main()
