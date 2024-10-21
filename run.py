@@ -1,12 +1,55 @@
 QUIZ_QUESTIONS = [
     {
-        "question": "What is the capital of England?",
-        "choices": ["Birmingham", "Paris", "London", "Tokoyo"],
+        "question": "Where did the Titanic sink?",
+        "choices": ["The Atlantic Ocean", "The Pacific Ocean", "The Indian Ocean", "The Arctic Ocean"],
+        "correct": 0
+    },
+    {
+        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "choices": ["24", "28", "32", "36"],
+        "correct": 1
+    },
+    {
+        "question": "Complementary colors are colors that are:",
+        "choices": ["Made by mixing two primary colors", 
+                    "Mixed with black or white",
+                    "Side by side on the color wheel",
+                    "Opposite each other on the color wheel"],
+        "correct": 3
+    },
+    {
+        "question": "How many teeth does the average human have?",
+        "choices": ["24", "30", "32", "40"],
         "correct": 2
     },
     {
-        "question": "What is the capital of France?",
-        "choices": ["Birmingham", "Paris", "London", "Tokoyo"],
+        "question": "Which city hosted the most recent Olympic Games?",
+        "choices": ["Rio de Janeiro, Brasil", "Pyeongchang, South Korea", "Tokyo, Japan", "Sochi, Russia"],
+        "correct": 1
+    },
+    {
+        "question": "Which is the last phase in cell reproduction?",
+        "choices": ["Anaphase", "Prophase", "Cytokinesis", "Metaphase"],
+        "correct": 2
+    },
+    {
+        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "choices": ["24", "28", "32", "36"],
+        "correct": 1
+    },
+    {
+        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "choices": ["24", "28", "32", "36"],
+        "correct": 1
+    },
+    {
+        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "choices": ["24", "28", "32", "36"],
+        "correct": 1
+    },
+    {
+        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "choices": ["24", "28", "32", "36"],
         "correct": 1
     },
 ]
