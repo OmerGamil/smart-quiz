@@ -33,24 +33,24 @@ QUIZ_QUESTIONS = [
         "correct": 2
     },
     {
-        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
-        "choices": ["24", "28", "32", "36"],
-        "correct": 1
+        "question": "What is the capital of Finland?",
+        "choices": ["Oslo", "Stockholm", "Tallinn", "Helsinki"],
+        "correct": 3
     },
     {
-        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
-        "choices": ["24", "28", "32", "36"],
-        "correct": 1
+        "question": "What's the biggest animal in the world?",
+        "choices": ["The African elephant", "The white rihnoceros", "The blue whale", "The hippopotamus"],
+        "correct": 2
     },
     {
-        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
-        "choices": ["24", "28", "32", "36"],
-        "correct": 1
+        "question": "Who came second in the FIFA World Cup in 2018?",
+        "choices": ["Argentina", "Morocco", "Croatia", "France"],
+        "correct": 0
     },
     {
-        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
-        "choices": ["24", "28", "32", "36"],
-        "correct": 1
+        "question": "How many valves does the heart have?",
+        "choices": ["Six", "Two", "Five", "Four"],
+        "correct": 3
     },
 ]
 
