@@ -59,7 +59,7 @@ QUIZ_QUESTIONS = [
     },
     {
         "question": "Who came second in the FIFA World Cup in 2018?",
-        "choices": ["Argentina", "Morocco", "Croatia", "France"],
+        "choices": ["Croatia", "Argentina", "Morocco", "France"],
         "correct": 0
     },
     {
@@ -101,7 +101,15 @@ def ask_question():
         print(f"{i}. {choice}")  # Print the choices with numbering
 
     global answer
-    answer = int(input("\n: ").strip()) - 1 # Substract the answer to get the right index
+
+    answer = ""
+    possible_answers = ["1", "2", "3", "4"]
+
+    answer = input("\n: ").strip()
+    while answer == "" or answer not in possible_answers:
+        print("\nNo, you must choose between 1, 2, 3, or 4")
+        answer = input("\n: ").strip()
+    answer = int(answer) - 1 # Substract the answer to get the right index
 
 
 def check_answer(user_answer):
