@@ -1,17 +1,22 @@
 QUIZ_QUESTIONS = [
     {
         "question": "Where did the Titanic sink?",
-        "choices": ["The Atlantic Ocean", "The Pacific Ocean", "The Indian Ocean", "The Arctic Ocean"],
+        "choices": [
+            "The Atlantic Ocean",
+            "The Pacific Ocean",
+            "The Indian Ocean",
+            "The Arctic Ocean",
+            ],
         "correct": 0
     },
     {
-        "question": "Which number would be next in this pattern: 8, 10, 13, 17, 22, ?",
+        "question": "Which number would be next: 8, 10, 13, 17, 22, ?",
         "choices": ["24", "28", "32", "36"],
         "correct": 1
     },
     {
         "question": "Complementary colors are colors that are:",
-        "choices": ["Made by mixing two primary colors", 
+        "choices": ["Made by mixing two primary colors",
                     "Mixed with black or white",
                     "Side by side on the color wheel",
                     "Opposite each other on the color wheel"],
@@ -24,7 +29,12 @@ QUIZ_QUESTIONS = [
     },
     {
         "question": "Which city hosted the most recent Olympic Games?",
-        "choices": ["Rio de Janeiro, Brasil", "Pyeongchang, South Korea", "Tokyo, Japan", "Sochi, Russia"],
+        "choices": [
+            "Rio de Janeiro, Brasil",
+            "Pyeongchang, South Korea",
+            "Tokyo, Japan",
+            "Sochi, Russia",
+            ],
         "correct": 1
     },
     {
@@ -39,7 +49,12 @@ QUIZ_QUESTIONS = [
     },
     {
         "question": "What's the biggest animal in the world?",
-        "choices": ["The African elephant", "The white rihnoceros", "The blue whale", "The hippopotamus"],
+        "choices": [
+            "The African elephant",
+            "The white rihnoceros",
+            "The blue whale",
+            "The hippopotamus",
+            ],
         "correct": 2
     },
     {
