@@ -42,6 +42,18 @@ The flowchart for the Smart-Quiz is as below:
 
 As the program ment to be simple as I said, so the User Interface was very similar to any trminal type program, taking inputs and displaying some messages and so on.
 
+### Welcome 
+The first message the user see when he opens the program is a simple welcoming message and an input area asking for his name.
+![Welcome Photo](readme-content/mainPhoto.jpeg)
+
+### Questions
+Questions is displayed with choices beneath them.
+![Question Photo](readme-content/QuestionPhoto.jpeg)
+
+### The Score
+The score is displayed with a funny feedback after it.
+![Score Photo](readme-content/scorePhoto.jpeg)
+
 ## Testing
 
 Tested and validated by the [CI Python Linter](https://pep8ci.herokuapp.com/)
