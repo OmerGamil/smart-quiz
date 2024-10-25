@@ -1,12 +1,12 @@
-# BrewStation 
+# Smart-Quiz
 
-Brewstation is a Python terminal coffee simulator program, which runs in a mock terminal on Heroku.
+Smart-Quiz is a Python terminal simple quiz program, which runs in a mock terminal on Heroku.
 
-Users can perform various actions like buy, fill or check machine status. The program displays some ASCII art and shows a coffee animation. The program is inspired by the Jetbrains Python Academy.
+All what the user need is to enter his name to see a nice hello message from the program and then answer the quiz questions by choosing between the four differnet choices the quiz provides.
 
-![Coffee Simulator Responsive Image](/readme-content/brewstation.png)
+![Main Image](readme-content/main-photo.jpeg)
 
-Live version: https://brewstation-4e76688e07ae.herokuapp.com/
+Live version: https://smart-quiz-43016e3a9f93.herokuapp.com/
 
 ## User Experience - UX
 
