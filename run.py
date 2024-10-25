@@ -107,7 +107,7 @@ def ask_question():
 
     answer = input("\n: ").strip()
     while answer == "" or answer not in possible_answers:
-        print("\nNo, you must choose between 1, 2, 3, or 4")
+        print("\nNo, you must choose 1, 2, 3, or 4")
         answer = input("\n: ").strip()
     answer = int(answer) - 1 # Substract the answer to get the right index
 
@@ -134,6 +134,13 @@ def main():
         global question_number
         question_number += 1
     
+    message = "rubbish"
+    if score > 3:
+        message = "okay"
+    if score > 7:
+        message = "great"
+
     print("\nYou got " + str(score) + " out of " + str(len(QUIZ_QUESTIONS)))
+    print(f"That was {message}!")
 
 main()
