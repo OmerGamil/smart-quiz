@@ -81,7 +81,7 @@ def welcome():
 
     global username
     while username == "":
-        username = input("Please enter your name: ").strip()
+        username = input("Please enter your name: \n").strip()
         if username == "":
             print("No, you must enter something!")
 
