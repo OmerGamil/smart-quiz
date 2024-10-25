@@ -73,6 +73,7 @@ username = ""
 question_number = 0
 score = 0
 
+
 def welcome():
     """
     Welcomes user and asks for name.
@@ -89,13 +90,13 @@ def welcome():
     print("Get ready for the QUIZ...")
 
 
-
 def ask_question():
     """
     Get the questions according to their order.
     """
     quest = QUIZ_QUESTIONS[question_number]
-    print("\nQuestion number " + str(question_number + 1) + ": " + quest["question"])
+    quest_text = quest["question"]
+    print(f"\nQuestion number {str(question_number + 1)}: {quest_text}")
 
     for i, choice in enumerate(quest["choices"], 1):
         print(f"{i}. {choice}")  # Print the choices with numbering
@@ -109,7 +110,7 @@ def ask_question():
     while answer == "" or answer not in possible_answers:
         print("\nNo, you must choose 1, 2, 3, or 4")
         answer = input("\n: ").strip()
-    answer = int(answer) - 1 # Substract the answer to get the right index
+    answer = int(answer) - 1  # Substract the answer to get the right index
 
 
 def check_answer(user_answer):
@@ -133,7 +134,6 @@ def main():
         check_answer(answer)
         global question_number
         question_number += 1
-    
     message = "rubbish"
     if score > 3:
         message = "okay"
@@ -142,6 +142,7 @@ def main():
 
     print("\nYou got " + str(score) + " out of " + str(len(QUIZ_QUESTIONS)))
     print(f"That was {message}!")
+
 
 if __name__ == "__main__":
     main()
