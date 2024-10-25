@@ -143,4 +143,5 @@ def main():
     print("\nYou got " + str(score) + " out of " + str(len(QUIZ_QUESTIONS)))
     print(f"That was {message}!")
 
-main()
+if __name__ == "__main__":
+    main()
